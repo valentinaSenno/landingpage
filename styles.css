@@ -13,7 +13,7 @@ body {
     background-color: #1F2937;
 }
 
-h1 {
+h1, #signup {
     color: #F9FAF8;
     font-size: 24px;
 }
@@ -28,7 +28,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 7px 40px;
+    padding: 7px 70px;
     height: 50px;
 }
 
@@ -42,7 +42,7 @@ nav {
     font-size: 48px;
 }
 
-.content p {
+.content p, .row4 p, .footer p {
     font-size: 18px;
     color: #E5E7EB;
     padding-bottom: 15px;
@@ -59,13 +59,14 @@ button {
 
 .row1 {
     display: flex;
-    padding: 60px 40px;
+    padding: 60px 70px;
     gap: 30px;
     justify-content: space-between;
 }
 
 .content {
     align-content: center;
+    margin-right: 40px;
 }
 
 #activities {
@@ -74,8 +75,8 @@ button {
     text-align: center;
 }
 
-.row2 {
-    padding: 60px 40px;
+.row2, .row4 {
+    padding: 60px 70px;
 }
 
 .flexcards {
@@ -103,3 +104,50 @@ button {
     height: 200px;
     object-fit: cover;
 }
+
+.row3 {
+    padding: 60px 70px;
+    background-color: #E5E7EB;
+}
+
+.row3 h3 {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.row3 p {
+    text-align: right;
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.calltoaction {
+    background-color: #3882F6;
+    border-radius: 15px;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.calltoaction button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 2px solid #F9FAF8;
+    height: 30px;
+    align-self: center;
+}
+
+.footer {
+    padding: 7px 70px;
+    height: 70px;
+    text-align: center;
+    align-content: center;
+}
+
+
